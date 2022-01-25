@@ -23,8 +23,8 @@ body {
   margin: 10px;
   text-align: center;
   position: relative;
-  transform-style: preserve-3d;
-  perspective: 3000px;
+  /* transform-style: preserve-3d; */
+  /* perspective: 3000px; */
 }
 
 .box .front {
@@ -83,11 +83,11 @@ body {
 }
 
 .box:hover .front{
-    opacity: 0;
+  opacity: 0;
   transform: translateY(110px) rotateX(90deg);
 }
 
 .box:hover .back{
-    opacity: 1;
+  opacity: 1;
   transform: translateY(0) rotateX(0);
 }
